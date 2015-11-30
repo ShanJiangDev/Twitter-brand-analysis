@@ -1,0 +1,10 @@
+%% -*- erlang -*-                                                  
+{application, tba,
+	[{description, "Project for analysing brand health according to tweets"},
+	{vsn, "0.1"},
+	{modules, []},
+	{registered, []},
+	{mod, {main, []}},
+	{env, []},
+	{applications, [kernel, stdlib, crypto, ibrowse, ssl]}]
+}.

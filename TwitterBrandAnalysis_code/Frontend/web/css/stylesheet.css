@@ -1,0 +1,429 @@
+/*dark theme*/
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,text,a,label,.modal-footer button{
+    color:#9CC4E4;
+    font-family: 'Poiret One', cursive;
+}
+label,
+.modal-footer button{
+    color: #343838;
+    font-size:15px;
+}
+
+#header h3,
+#footer h3{
+    color:#9CC4E4;
+}
+#header{
+    opacity: 1;
+}
+
+#info h2,#info h4,#info text{
+    color: #0E2430;
+}
+#info path{
+    fill: #F5B349;
+}
+
+
+#header,
+#footer,
+.userfooter,
+.userheader {
+    background-color:#343838 ;
+}
+#userWrap {
+
+    background-color: #99c6de;
+}
+svg{
+    background-color: white;
+}
+
+
+
+
+
+/* Style for our header texts
+  * --------------------------------------- */
+body {
+    font-family: arial, helvetica;
+    margin: 0;
+    color: #343838;
+}
+h1 {
+    font-size: 5em;
+    font-family: arial, helvetica;
+    margin: 0;
+    padding: 0;
+}
+.intro p {
+    color: #fff;
+}
+/* Fixed header and footer.
+  * --------------------------------------- */
+
+#header, #header .container-fluid {
+    position: fixed;
+    height: 80px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+
+    padding: 0;
+    top: 0px;
+
+}
+#header>.container-fluid>.col-md-1,
+#header>.container-fluid>.col-md-4{
+    height: 80px;
+}
+/*#exampleModal,*/
+.modal-dialog{
+    height: 100%;
+    padding-top: 80px;
+}
+#header > .container-fluid>.col-md-1>h4,
+#header > .container-fluid>.col-md-1>a>h4{
+    /*position: absolute;
+    height: 80px;
+    text-align: center;
+    top:50%;*/
+    position: absolute;
+    top: 50%;
+    /* adjust top up half the height of a single line */
+    margin-top: -0.5em;
+    /* force content to always be a single line */
+
+    white-space: nowrap;
+    width: 100%;
+
+
+}
+
+#header>.container-fluid>.col-md-1>button{
+    position: absolute;
+    top:30%;
+    right: 10%;
+}
+#exampleModalLabel{
+    font-size: 20px;
+}
+
+
+img{
+    height: 100px;
+    width: auto;
+}
+#logout{
+    padding: 0px;
+}
+
+#footer {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    z-index: inherit;
+    text-align: center;
+    padding:0;
+    margin-top: 0;
+    bottom: -100%;
+}
+/*.emailIcon,
+.emailAddress{
+    display: inline;
+}*/
+/*Home Page*/
+
+.section {
+    text-align: center;
+}
+.videoContainer, .userContainer, .viewContainer {
+    padding: 0px;
+    height: 100%;
+}
+#myVideo {
+    position: relative;
+    /*bottom: 0;
+    top: 0;*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-size: 100% 100%;
+}
+/*second home page*/
+
+#videoWrap, #happymapWrap, #userWrap, #viwoneWrap, #viwtwoWrap {
+    margin: 80px 0 5px 0;
+    position: absolute;
+
+    top: 0;
+    width: 100%;
+    z-index: inherit;
+    background-size: 100% 100%;
+    height: 80%;
+   /* border: solid;*/
+}
+.intro {
+    margin-top: 0;
+    height: 84%;
+}
+.col-md-3, .col-md-6, .col-md-12 {
+    height: 100%;
+/*    border: solid;*/
+}
+/*Product Page && happy map.
+  *----------------------------------------------*/
+
+#info {
+    float: left;
+    width: 270px;
+    padding-left: 20px;
+    margin-top: 5%;
+    border-left: 1px solid silver;
+}
+#info h2 {
+    display: inline;
+
+}
+
+#info .f32 .flag {
+    vertical-align: bottom !important;
+}
+#info h4 {
+    margin: 1em 0 0 0;
+}
+#happymapWrap .container-fluid {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.container-fluid #container {
+    float: left;
+    height: 100%;
+    width: 70%;
+    margin: 0 0 0 5%;
+}
+
+/*user login home page
+  * --------------------------------------- */
+/*css from map*/
+
+#container {
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+}
+.highcharts-tooltip>span {
+    padding: 10px;
+    white-space: normal !important;
+    width: 200px;
+}
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+.f32 .flag {
+    vertical-align: middle !important;
+}
+/*css from map*/
+
+.userheader {
+    float: left;
+}
+.userpage #footer {
+    bottom: 0px;
+}
+.userfooter {
+    /*    position: fixed;
+    height: 70px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 0;
+    margin-top: 0;
+    float: right;
+*/
+
+}
+#usercontent,#usersetting {
+    margin-top: 80px;
+    height: 100%;
+    margin-bottom: 70px;
+}
+#userWrap {
+    margin-bottom: 0px;
+}
+.col-md-2, .col-md-8, .col-md-10 {
+  /*  border: solid;*/
+    height: 100%;
+}
+/*keyword search history*/
+
+#search-the-world{
+    height: auto;
+}
+.input-group-btn{
+    height: 30px;
+    width: 30px;
+
+}
+#editButton,
+#searchButton{
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    margin-top: 2px;
+    margin-left: 5px;
+    padding: 0px;
+}
+#searchIcon,#editIcon,#deletIcon{
+    height: auto;
+}
+#searchArea{
+    border-radius: 5px;
+}
+.input-group{
+    margin-top:10px;
+}
+.input-group .form-control{
+    width: 62%;
+
+}
+.search-history{
+    list-style-type:none;
+    padding-left: 10px;
+}
+.search-history li{
+    font-size: 20px;
+/*    width: 50%;*/
+
+}
+#deletIcon{
+    right: 0;
+}
+#userWrap > .col-md-8 > #container {
+    margin-left: 0px;
+    width: 100%;
+}
+/*view page*/
+
+.col-md-6 {
+ /*   border: solid;*/
+    height: 100%;
+    padding: 0 5px;
+
+}
+#userWrap > .col-md-10 {
+    padding: 0px;
+}
+.col-md-10 > .container-fluid {
+   /* border: solid;*/
+}
+#viwoneWrap {
+    height: 48%;
+    top: 1%;
+    margin:0;
+
+}
+#viwtwoWrap {
+    height: 48%;
+    top: 51%;
+    bottom: 1%;
+    margin:0;
+}
+#barchart, #container2, #linechart, #wordcloud,#container4 svg,.container41 {
+    min-width: 310px;
+    margin: 0 auto;
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.container41{
+    display: none;
+}
+/*hamburger menu icon*/
+
+.dropdown{
+    right: 10px;
+    position: absolute;
+    width: 25px;
+    height: 23px;
+    padding: 0;
+    margin-top: 10px;
+}
+#dropdownMenu1{
+    width: 25px;
+    height: 23px;
+    padding: 0px;
+    border: 0px;
+}
+
+.dropdown-menu{
+    text-align: right;
+    margin-left: -40px;
+    min-width: 20px;
+}
+.dropdown-menu>li>a{
+    padding: 3px 5px 0px 5px;
+}
+
+.clearfix{
+    width: 25px;
+    height: 23px;
+}
+.pbs{
+    margin-right: 10px
+}
+
+.icon-menu {
+  width: 16px;
+  height: 16px;
+ margin-top: 2px;
+}
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  color: #000000;
+  fill: currentColor;
+}
+use{
+    width: 18px;
+    height: 14px;
+}
+.dropdown-menu{
+    right: 0;
+}
+
+
+
+#container4,svg{
+     z-index: -1;
+     top: 0;
+}
+
+p{
+    color: black;
+}
+/*setting page*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
